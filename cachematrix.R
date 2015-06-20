@@ -7,6 +7,8 @@ makeCacheMatrix <- function(x = matrix()) {
 
 get <- function() x 
 
+list(get=get)
+
 }
 
 
@@ -16,4 +18,5 @@ cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
         
         y <- solve(x)
+        y
 }
