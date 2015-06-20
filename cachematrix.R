@@ -17,6 +17,6 @@ list(get=get)
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
         
-        y <- solve(x$get())
+        y <- solve(x)
         y
 }
